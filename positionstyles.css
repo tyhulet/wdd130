@@ -161,17 +161,16 @@
 }
 
 .green5 {
-  width: 100px;
+  width: 200px;
   height: 150px;
   background-color: green;
-
+  float:left;
 }
 
 .yellow5 {
   width: 100%;
-  height: 100px;
-  background-color: gold;
-
+  height: 185px;
+  background-color: gold; 
 }
 
 .blue5 {
