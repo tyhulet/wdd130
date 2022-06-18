@@ -275,6 +275,7 @@ h5{
 .salmon-pic{
 grid-column: 1/3;
 grid-row: 1;
+margin-left: 10px;
 }
 
 .salmon-info{
@@ -282,6 +283,8 @@ grid-row: 1;
     grid-row: 1;
     text-align: right;
     font-family: "Montserrat";
+    margin-right: 25px;
+    margin-left: 5px;
 }
 
 .salmon-img{
@@ -295,9 +298,10 @@ grid-row: 1;
 }
 
 .utah-img{
-    width: 100%;
+    width: 90%;
     height: 75%;
     border: 10px solid #4d64a8;
+    margin-right: -20px;
 }
 
 .utah-info{
@@ -305,6 +309,30 @@ grid-row: 1;
     grid-row: 3;
     text-align: left;
     font-family: "Montserrat";
+    margin-left: 25px;
+}
+
+.arizona{
+    grid-column: 1/3;
+    grid-row: 4;
+    margin-left: 10px;
+    margin-top: -175px;
+}
+
+.arizona-img{
+    width: 100%;
+    height: 100%;
+    border: 10px solid #4d64a8;
+    
+}
+
+.arizona-info{
+    grid-column: 3/6;
+    grid-row: 4;
+    text-align: right;
+    font-family: "Montserrat";
+    margin-right: 25px;
+    margin-top: -175px;
 }
 
 @media screen and (max-width: 900px) {
