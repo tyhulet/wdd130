@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal site home page</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="special-occasions.html">Special occasions</a>
+            <a id="logo-link" href="index.html">
+                <img class="logo" src="images/logo.png" alt="Petal Pantry Logo">
+            </a>
+            <a href="sympathy.html">Sympathy</a>
+            <a href="review.html">Reviews</a>
+        </nav>
+    </header>
+
+    <main>
+        <div id="feedback"></div>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+                <li>
+                    <laber for="name">Name:</laber>
+                    <input type="text" id="name" name="user_name">
+                </li>
+                <li>
+                    <label for="msg">Review:</label>
+                    <textarea id="msg" name="user_messgage"></textarea>
+                </li>
+                <li class="button">
+                    <button type="submit">Post your review</button>
+                </li>
+            </ul>
+        </form>
+        <script>
+            const feedbackElement = document.getElementById('feedback');
+            const formElement = document.forms[0];
+            formElement.addEventListener('submit', function (e) {
+                e.preventDefault();
+                feedbackElement.innerHTML = 'Hello ' + formElement.user_name.value +
+                    '! Thank you for your message. We will get back with you as soon as possible!';
+                feedbackElement.style.display = "block";
+                document.body.classList.toggle('moveDown');
+            });
+        </script>
+    </main>
+    <footer>
+        <h3>Petal Pantry &copy; 2022 - Tyler Hulet</h3>
+        <h3><a href="site-plan.html">Site-Plan</a></h3>
+        <h3>If you need more info please call: 801-374-1000</h3>
+        <div id="social">
+            <a href="https://facebook.com" target="blank">
+                <img src="images/facebook.png" alt="facebook icon">
+            </a>
+            <a href="https://instagram.com" target="blank">
+                <img src="images/instagram.png" alt="intagram icon">
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
