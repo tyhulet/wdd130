@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&family=Sunflower&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header {
+    background-color: #136b90;
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+
+#logo_link {
+    padding-top: 50px;
+    margin-top: -25px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    text-align: center;
+    color: #e23961 ;
+    text-decoration: none;
+    padding: 90px;
+    font-size: 25px;
+}
+nav a:hover {
+    background-color: #f4abbc;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #f5a97a;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
