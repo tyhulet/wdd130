@@ -4,15 +4,20 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+
 header {
     background-color: #136b90;
     display: grid;
-    grid-template-columns: 200px auto;
+    grid-template-columns: 150px auto;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 #logo_link {
-    padding-top: 50px;
+    padding-top: 10px;
     margin-top: -25px;
+    height: 10px;
 }
 
 nav {
@@ -22,11 +27,12 @@ nav {
 
 nav a {
     text-align: center;
-    color: #e23961 ;
+    color: #e23961;
     text-decoration: none;
     padding: 90px;
     font-size: 25px;
 }
+
 nav a:hover {
     background-color: #f4abbc;
     color: #ffffff;
@@ -47,7 +53,7 @@ nav a:hover {
 
 
 footer {
-    background-color: #f5a97a;
+    background-color: #e23961;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
