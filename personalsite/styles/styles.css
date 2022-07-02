@@ -5,7 +5,7 @@
     margin: 0 auto;
 }
 
-h1{
+h1 {
     font-family: 'Send Flowers';
 }
 
@@ -13,9 +13,10 @@ header {
     background-color: #136b90;
     display: grid;
     grid-template-columns: 150px auto;
-    margin-top: -10px;
+    margin-top: -20px;
     margin-left: -10px;
     margin-right: -10px;
+    margin-bottom: -20px;
 }
 
 #logo_link {
@@ -31,7 +32,7 @@ nav {
 
 nav a {
     text-align: center;
-    color: #e23961;
+    color: black;
     text-decoration: none;
     padding: 90px;
     font-size: 25px;
@@ -39,7 +40,11 @@ nav a {
 
 nav a:hover {
     background-color: #f4abbc;
-    color: #ffffff;
+    color: #136b90;
+}
+
+#banner {
+    margin-right: -50px;
 }
 
 #banner-img {
@@ -48,81 +53,95 @@ nav a:hover {
     margin-left: -8px;
 }
 
-.home-grid{
+.home-grid {
     display: grid;
-    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-h6{
+h6 {
     color: #ffffff;
 }
 
-.workbench{
+.workbench {
     grid-column: 1/2;
     grid-row: 1;
+    padding-left: 50px;
 }
 
-.workbench-pic{
-    width: 600px;
+.workbench-pic {
+    width: 700px;
 }
 
-.mission{
-    grid-column: 3/5;
+.mission {
+    grid-column: 1/5;
     grid-row: 1;
     text-align: center;
-    margin-left: -200px;
+    margin-left: 550px;
+    margin-bottom: -50px;
+    padding-right: 20px;
+}
+
+.mission p {
+    font-size: 35px;
+    font-family: 'Sunflower';
     background-color: #f4abbc;
 }
 
-.mission p{
-    font-size: 30px;
-    font-family:'Sunflower';
+.mission h2 {
+    font-size: 40px;
+    font-family: 'Send Flowers';
 }
 
-
-.bouquet{
-    grid-column: 2/3;
+.bouquet {
+    grid-column: 1/2;
     grid-row: 2;
-    margin-left: -350px;
+    margin-left: 100px;
 }
 
-.bouquet-pic{
-    width: 510px
+.bouquet-pic {
+    width: 650px;
+    height: 700px;
 }
 
-.aboutus{
-    grid-column: 3/6;
+.aboutus {
+    grid-column: 2/5;
     grid-row: 2;
     text-align: center;
+    padding-left: 10px;
+    padding-right: 30px;
+    margin-top: -50px;
 }
 
+.aboutus h2 {
+    font-size: 40px;
+    font-family: 'Send Flowers';
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.aboutus p {
+    font-size: 35px;
+    font-family: 'Sunflower';
+}
 
 footer {
     background-color: #e23961;
-    padding: 25px 50px;
     margin-top: 100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding-top: 45px;
+    padding-left: 25px;
+    padding-right: 35px;
+    margin-left: -10px;
+    margin-right: -25px;
+    margin-bottom: -25px;
 }
+
+footer h2 {
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 25px;
+}
+
+/* css for suppage2 */
