@@ -109,7 +109,7 @@ h6 {
     text-align: center;
     padding-left: 10px;
     padding-right: 30px;
-    margin-top: -50px;
+    margin-top: 50px;
 }
 
 .aboutus h2 {
@@ -118,7 +118,7 @@ h6 {
 }
 
 .aboutus p {
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Sunflower';
 }
 
@@ -142,6 +142,49 @@ footer h2 {
 
 footer h3 {
     font-size: 25px;
+}
+
+/* css for my simple component*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    grid-column: 2/5;
+    grid-row: 1;
+    margin-top: 500px;
+  }
+  
+  .title {
+    color: #e23961;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color:#e23961;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+  }
+  
+button:hover, .card a:hover {
+    opacity: 0.7;
+  }
+
+.card h1{
+    color:#136b90;
 }
 
 /* css for suppage2 */
