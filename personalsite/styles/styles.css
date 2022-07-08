@@ -189,3 +189,26 @@ button:hover, .card a:hover {
 }
 
 /* css for suppage2 */
+
+.occasion-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.occasion-grid img{
+    height: 600px;
+    
+}
+
+
+#wedding1{
+    grid-column: 1;
+    grid-row: 1;
+    padding-top: 25px;
+}
+#wedding2{
+    grid-column: 1;
+    grid-row: 1;
+    padding-top: 25px;
+    margin-left: 405px;
+}
