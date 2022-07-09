@@ -17,6 +17,7 @@ header {
     margin-left: -10px;
     margin-right: -10px;
     margin-bottom: -20px;
+    text-align: center;
 }
 
 #logo_link {
@@ -129,20 +130,17 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 45px;
+    padding-top: 35px;
     padding-left: 25px;
     padding-right: 35px;
     margin-left: -10px;
     margin-right: -25px;
     margin-bottom: -25px;
-}
-
-footer h2 {
     text-align: center;
 }
 
 footer h3 {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /* css for my simple component*/
