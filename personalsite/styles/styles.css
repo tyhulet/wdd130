@@ -20,7 +20,7 @@ header {
     text-align: center;
 }
 
-.logo{
+.logo {
     margin-top: 15px;
 }
 
@@ -205,7 +205,7 @@ button:hover,
     padding-top: 25px;
 }
 
-#wedding1 img{
+#wedding1 img {
     height: 350px;
     width: 350px;
 }
@@ -217,7 +217,7 @@ button:hover,
 
 }
 
-#wedding2 img{
+#wedding2 img {
     height: 350px;
     width: 350px;
 }
@@ -228,7 +228,7 @@ button:hover,
     margin-top: 395px;
 }
 
-#wedding3 img{
+#wedding3 img {
     height: 350px;
     width: 350px;
 }
@@ -239,7 +239,7 @@ button:hover,
     margin-top: 395px;
 }
 
-#wedding4 img{
+#wedding4 img {
     height: 350px;
     width: 350px;
 }
@@ -254,12 +254,13 @@ button:hover,
     margin-top: 100px;
 }
 
-.weddings-info p strong{
+.weddings-info p strong {
     font-size: 50px;
     text-align: center;
     font-family: 'Send Flowers';
 }
-.weddings-info p{
+
+.weddings-info p {
     margin-top: 75px;
 }
 
@@ -269,23 +270,23 @@ button:hover,
     padding-top: 40px;
 }
 
-#mothers-pic1{
+#mothers-pic1 {
     grid-column: 2;
     grid-row: 3;
     padding-top: 40px;
 }
 
-#mothers-pic img{
+#mothers-pic img {
     height: 350px;
     width: 350px;
 }
 
-#mothers-pic1 img{
+#mothers-pic1 img {
     height: 350px;
     width: 350px;
 }
 
-.mothers-info{
+.mothers-info {
     grid-column: 3/6;
     grid-row: 3;
     text-align: left;
@@ -295,35 +296,35 @@ button:hover,
     padding-left: 30px;
 }
 
-.mothers-info p strong{
+.mothers-info p strong {
     font-size: 50px;
     text-align: center;
     font-family: 'Send Flowers';
 }
 
-#valentine{
+#valentine {
     grid-column: 1;
     grid-row: 5;
     padding-top: 40px;
 }
 
-#valentine img{
+#valentine img {
     height: 350px;
     width: 350px;
 }
 
-#anniversary{
+#anniversary {
     grid-column: 2;
     grid-row: 5;
     padding-top: 40px;
 }
 
-#anniversary img{
+#anniversary img {
     height: 350px;
     width: 350px;
 }
 
-.feb-info{
+.feb-info {
     grid-column: 3/6;
     grid-row: 5;
     text-align: left;
@@ -333,8 +334,112 @@ button:hover,
     padding-left: 30px;
 }
 
-.feb-info p strong{
+.feb-info p strong {
     font-size: 40px;
     text-align: left;
     font-family: 'Send Flowers';
+}
+
+/* css for my sympanthy page */
+.sympathy-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.funeral-info {
+    grid-column: 1/6;
+    grid-row: 1;
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-right: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.funeral-info h2{
+    font-family: 'Send Flowers';
+}
+
+.container {
+    grid-column: 1;
+    grid-row: 2;
+    padding-left: 25px;
+    padding-top: 15px;
+}
+
+.container img {
+    width: 400px;
+    height: 400px;
+}
+
+.casket {
+    grid-column: 3;
+    grid-row: 2;
+    padding-right: 75px;
+    padding-top: 15px;
+}
+
+.casket img {
+    width: 400px;
+    height: 400px;
+}
+
+.easel {
+    grid-column: 4;
+    grid-row: 2;
+    padding-top: 15px;
+}
+
+.easel img {
+    width: 400px;
+    height: 400px;
+}
+
+.getwell-info {
+    grid-column: 1/6;
+    grid-row: 4;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.getwell-info h2{
+    font-family: 'Send Flowers';
+}
+
+.bright {
+    grid-column: 1/2;
+    grid-row: 6;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.bright img {
+    width: 400px;
+    height: 400px;
+}
+
+.get-well {
+    grid-column: 3/4;
+    grid-row: 6;
+    padding-top: 20px;
+    padding-right: 75px;
+}
+
+.get-well img {
+    width: 400px;
+    height: 400px;
+}
+
+.hospital {
+    grid-column: 4/5;
+    grid-row: 6;
+    padding-top: 20px;
+}
+
+.hospital img {
+    width: 400px;
+    height: 400px;
 }
